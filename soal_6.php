@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Query</title>
-</head>
-<body>
 <?php
 $servername = "localhost";
 $username = "root";
@@ -37,5 +31,3 @@ while($row = $hasil->fetch_assoc()){
 }
 $conn ->close();
 ?>
-</body>
-</html>
