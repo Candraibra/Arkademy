@@ -4,4 +4,4 @@ SABTU,19 JANUARI 2019
     Email:canisanie@gmai.com
 
 
-                                                        "Seleksi Rekrutmen Arkademy" 
+                                                      "Seleksi Rekrutmen Arkademy" 
