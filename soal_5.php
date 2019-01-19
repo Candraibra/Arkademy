@@ -7,10 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
-
 </head>
 <body>
-
 <form  method="post">
 <p>Masukan Angka lalu enter</p>
  <input type="number"  name="total"   value="1">
