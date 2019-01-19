@@ -9,18 +9,27 @@
     <script src="main.js"></script>
 </head>
 <body>
+<center>Menghitung Jumlah Jabat Tangan 
 <form  method="post">
 <p>Masukan Angka lalu enter</p>
- <input type="number"  name="total"   value="1">
+ <input type="number" name="total"   value="1">
 </form>
+</center>
 <?php
 error_reporting(0);
 $n = $_POST["total"];
-function jabat($n) {
-    $jabatan = ($n * ($n - 1)) / 2;
-    echo "Jumlah Jabat Tangan Yang Terjadi : " . $jabatan;
-};
-jabat($n);
-?>
+	function count_handShake($jumlah) {
+		$a = 0;
+		$b = 0;
+		for ($i=1; $i < $jumlah ; $i++) { 
+			for ($n=$i; $n < $jumlah ; $n++) { 
+				$b = $n+1;
+				$a++;
+			}
+		}
+		return $a;
+	}
+	echo count_handShake($n);
+	?>
 </body>
 </html>
