@@ -14,6 +14,8 @@
         document.write(abjad[3]); document.write(abjad[4]); document.write(abjad[5]);
         document.write('<br />');
         document.write(abjad[6]); document.write(abjad[7]); document.write(abjad[8]);
+        document.write('<br />');
+        document.write(abjad[9]); document.write(abjad[10]); document.write(abjad[11]);
     </script>
 </body>
 </html>
