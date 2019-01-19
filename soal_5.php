@@ -13,28 +13,14 @@
 
 <form  method="post">
 <p>Masukan Angka lalu enter</p>
-    <table>
-        <tr>
-            <td>
-            <p>jumlah Orang yang hadir berapa? :</p>
-            </td>
-            <td>
-            <input type="number"  name="total"   value="1">
-            </td>
-        </tr>
-    </table>
-    
- 
-
-
-
+ <input type="number"  name="total"   value="1">
 </form>
 <?php
 error_reporting(0);
 $n = $_POST["total"];
 function jabat($n) {
     $jabatan = ($n * ($n - 1)) / 2;
-    echo "Jumlah Jabat Tangan Yang Terjadi " . $jabatan;
+    echo "Jumlah Jabat Tangan Yang Terjadi : " . $jabatan;
 };
 jabat($n);
 ?>
